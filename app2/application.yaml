@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/marcoaraujo54/test_argocd.git
-    path: resources
+    path: /resources
   destination:
     server: https://kubernetes.default.svc
     namespace: app2
