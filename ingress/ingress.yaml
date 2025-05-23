@@ -26,4 +26,8 @@ spec:
               name: "nginx"
             metrics:
               enabled: true
+          controller:
+            service:
+              type: NodePort
+
     
